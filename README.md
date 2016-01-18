@@ -1,1 +1,1 @@
-A website designed for Susan Hooper Esthetics inside Salong Lavonne.
+A website designed for Susan Hooper Esthetics inside Salon Lavonne.
