@@ -1,0 +1,14 @@
+<!-- Start Footer -->
+<footer class="main-footer">
+    <div class="container-fluid">
+
+        <ul class="social">
+            {% if site.facebook %}<li><a href="{{ site.facebook }}"><svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg></a></li>{% endif %}
+            {% if site.feed %}<li><a href="#"><svg class="icon icon-feed"><use xlink:href="#icon-feed"></use></svg></a></li>{% endif %}
+        </ul>
+
+        <small>{% if site.copyright %} {{ site.copyright }} {% endif %}</small>
+
+    </div>
+</footer>
+<!-- End Footer -->
