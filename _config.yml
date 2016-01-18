@@ -9,7 +9,7 @@ logo_url: img/logo.png
 hero:
     hero_img: hero.jpg
     hero_title: Susan Hooper Esthetics
-    hero_description: WHEN YOU LOOK YOUR BEST YOU FEEL YOUR BEST
+    hero_description: When you look your best you feel your best
 
 # Contact form
 api_token: # Enter API token here
@@ -21,8 +21,8 @@ contact:
     address: 14547 Westlake Dr, Suite B, Lake Oswego, OR 97035
 
 # Operating hours
-monday_friday: 9:00 – 6:00
-saturday: 9:00 – 3:00
+monday_friday: 9:00 – 7:00
+saturday: 9:00 – 4:00
 sunday: Closed
 
 # Map
