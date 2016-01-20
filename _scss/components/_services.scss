@@ -11,7 +11,7 @@
     }
     [class^="col-"] {
         @include breakpoint(small) {
-            display: flex; 
+            display: flex;
         }
     }
     .icon {

@@ -25,7 +25,7 @@ layout: default
                     <input name="phone" type="tel" placeholder="Phone" required>
                 </div>
                 <div class="form-field">
-                    <input name="_replyto" type="email" placeholder="Email" required>
+                    <input name="email" type="email" placeholder="Email" required>
                 </div>
                 <div class="form-field">
                     <textarea name="comments" placeholder="Message" required></textarea>
@@ -109,7 +109,7 @@ technical excellence</p>
                 <div class="media">
                     <div class="media-left">
                         <div class="boxed-icon">
-                            <svg class="icon icon-medkit"><use xlink:href="#icon-medkit"></use></svg>
+                            <svg class="icon icon-briefcase"><use xlink:href="#icon-briefcase"></use></svg>
                         </div>
                     </div>
                     <div class="media-body">
@@ -152,9 +152,19 @@ technical excellence</p>
             {% for service in site.data.services %}
                 <div class="col-sm-6 col-md-4">
                     <div class="icon-box">
-                        <svg class="icon {{ service.icon }}"><use xlink:href="#{{ service.icon }}"></use></svg>
-                        <h4>{{ service.title }}</h4>
-                        <p>{{ service.description }}</p>
+                      <svg class="icon {{ service.icon }}"><use xlink:href="#{{ service.icon }}"></use></svg>
+                      <h4>{{ service.title }}</h4>
+                      <p>{{ service.price }}</p>
+                      <p>{{ service.time }}</p>
+                      <p>{{ service.description }}</p>
+                      <a href='javascript:void(0);' {{ service.tags }}>{{ service.expandible }}</a>
+                      <div style="display: none">
+                        {% for sub_service in site.data.[service.yaml] %}
+                          <p><b>{{ sub_service.title }}</b></p>
+                          <p>{{ sub_service.price }}</p>
+                          <p>{{ sub_service.time }}
+                        {% endfor %}
+                      </div>
                     </div>
                 </div>
             {% endfor %}

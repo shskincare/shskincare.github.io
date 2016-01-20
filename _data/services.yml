@@ -1,23 +1,37 @@
-- icon: icon-user-md
+- icon: icon-globe
   title: European Facial
+  price: $65.00
+  time: 60 minutes
   description: A deep pore-cleansing treatment that includes a thorough cleansing, exfoliating, extractions and a custom prescription mask. The final moisturizing & facial massage leaves skin feeling amazingly healthy. Also includes anti-aging eye and hand treatment.
 
 - icon: icon-diamond
   title: Express Facial
+  price: $45.00
+  time: 45 minutes
   description: Deep pore cleansing, extractions, mask and hydration. Perfect for teens or people on the go.
 
-- icon: icon-flask
+- icon: icon-star-o
   title: Enzyme Resurfacing Facial
+  price: $60.00
+  time: 45 minutes
   description: Enzymes remove dead skin cells that make skin appear dull. This noninvasive treatment leaves skin refreshed, smooth, and soft. Fine lines and wrinkles are diminished. Includes anti-aging or skin brightening mask.
 
-- icon: icon-globe
+- icon: icon-flask
   title: Glycolic Acid Treatment or Salicylic Acid Treatment
-  description: Eliminates dead surface cells for radiant skin. Includes hydrating mask.Series of six is recommended for maximum results.
+  price: $40
+  time: 30-45 mintes
+  description: Eliminates dead surface cells for radiant skin. Includes hydrating mask. Series of six is recommended for maximum results.
 
-- icon: icon-bed
+- icon: icon-tint
   title: Microdermabrasion
+  price: $85.00
+  time: 45 minutes
   description: Tiny crystals gently, yet effectively buff away outer layers of the skin. Acne scarring, fine lines and other skin imperfections benefit dramatically from this treatment.
 
-- icon: icon-bed
+- icon: icon-trophy
   title: Waxing Services
-  description: Got hair growing everywhere? Let's pull it! 
+  price: price varies
+  time: time varies
+  expandible: Click to Expand Waxing Services
+  tags: class="expandible-service"
+  yaml: waxing
