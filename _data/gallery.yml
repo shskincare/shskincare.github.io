@@ -1,15 +1,15 @@
-- image_thumb: gallery-large1.jpg
-  image_large: gallery-large1.jpg
+- image_thumb: gallery1.jpg
+  image_large: gallery1.jpg
   image_alt: something meaningful
 
-- image_thumb: gallery-large2.jpg
-  image_large: gallery-large2.jpg
+- image_thumb: gallery2.jpg
+  image_large: gallery2.jpg
   image_alt: something meaningful
 
-- image_thumb: gallery-large3.jpg
-  image_large: gallery-large3.jpg
+- image_thumb: gallery3.jpg
+  image_large: gallery3.jpg
   image_alt: something meaningful
 
-- image_thumb: gallery-large4.jpg
-  image_large: gallery-large4.jpg
+- image_thumb: gallery4.jpg
+  image_large: gallery4.jpg
   image_alt: something meaningful
