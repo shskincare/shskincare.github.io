@@ -7,18 +7,18 @@ logo_url: img/logo.png
 
 # Hero
 hero:
-    hero_img: hero.jpg
-    hero_title: Susan Hooper Esthetics
-    hero_description: When you look your best you feel your best
+  hero_img: hero.jpg
+  hero_title: Susan Hooper Esthetics
+  hero_description: When you look your best you feel your best
 
 # Contact form
 api_token: # Enter API token here
 
 # Contact info
 contact:
-    phone: 503-968-7141 or  971-207-0656
-    email: face_diva@yahoo.com
-    address: 14547 Westlake Dr, Suite B, Lake Oswego, OR 97035
+  phone: 503-968-7141 or  971-207-0656
+  email: face_diva@yahoo.com
+  address: 14547 Westlake Dr, Suite B, Lake Oswego, OR 97035
 
 # Operating hours
 monday_friday: 9:00 – 7:00
@@ -27,9 +27,9 @@ sunday: Closed
 
 # Map
 map:
-    zoom: 17
-    address: 14547 Westlake Dr, Suite B, Lake Oswego, OR 97035
-    address_details: img/logo.png
+  zoom: 17
+  address: 14547 Westlake Dr, Suite B, Lake Oswego, OR 97035
+  address_details: img/logo.png
 
 # Social settings
 facebook: http://www.facebook.com/shskincare
