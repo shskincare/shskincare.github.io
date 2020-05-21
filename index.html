@@ -86,53 +86,38 @@ layout: default
 
         <div class="row">
             <div class="col-sm-6">
-                <h3>Welcome to {{ site.title }}, inside Salon Lavonne</h3>
-                <p>I am dedicated to providing each client with  exceptional service and
-technical excellence</p>
+                <h3 class="text-center">Welcome to {{ site.title }},<br> inside Salon Lavonne</h3>
+                <p class="text-justify">I am dedicated to providing each client with exceptional service and
+                technical excellence</p>
 
                 <div class="media">
-                    <div class="media-left">
-                        <div class="boxed-icon">
-                            <svg class="icon icon-heart"><use xlink:href="#icon-heart"></use></svg>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <p>
-                          As a courtesy to all my clients, my services are completed as scheduled.
-                          If you are running late please let me know and I will do my best to accommodate you.
-                          Arriving late may limit the time allocated for your service. Cancellations require a
-                          24hr notice. Thank you for your consideration and understanding.
-                        </p>
-                    </div>
+                  <div class="media-body">
+                    <p class="text-justify">
+                      As a courtesy to all my clients, my services are completed as scheduled.
+                      If you are running late please let me know and I will do my best to accommodate you.
+                      Arriving late may limit the time allocated for your service. Cancellations require a
+                      24hr notice. Thank you for your consideration and understanding.
+                    </p>
+                  </div>
                 </div>
 
                 <div class="media">
-                    <div class="media-left">
-                        <div class="boxed-icon">
-                            <svg class="icon icon-briefcase"><use xlink:href="#icon-briefcase"></use></svg>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <p>
-                          I carry facial and body products from the following: <b>JAN MARINI SKIN RESEARCH, BIOELEMENTS, MOROCCAN OIL BODY and COLORESCIENCE MINERAL MAKEUP</b>
-                        </p>
-                    </div>
+                  <div class="media-body">
+                      <p class="text-justify">
+                        I carry facial and body products from the following: <b>JAN MARINI SKIN RESEARCH, BIOELEMENTS, MOROCCAN OIL BODY and COLORESCIENCE MINERAL MAKEUP</b>
+                      </p>
+                  </div>
                 </div>
 
                 <div class="media">
-                    <div class="media-left">
-                        <div class="boxed-icon">
-                            <svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <p>
-                          Thank you for taking the time to explore my website!
-                          I consider each client as an individual with his or her own needs and desires.
-                          I strive to fulfill those needs and desires with the best talent available.
-                          Your appearance and satisfaction is my highest priority.
-                        </p>
-                    </div>
+                  <div class="media-body">
+                      <p class="text-justify">
+                        Thank you for taking the time to explore my website!
+                        I consider each client as an individual with his or her own needs and desires.
+                        I strive to fulfill those needs and desires with the best talent available.
+                        Your appearance and satisfaction is my highest priority.
+                      </p>
+                  </div>
                 </div>
             </div>
             <div class="col-sm-6">
@@ -159,7 +144,7 @@ technical excellence</p>
                       <p>{{ service.description }}</p>
                       <a href='javascript:void(0);' {{ service.tags }}>{{ service.expandible }}</a>
                       <div style="display: none">
-                        {% for sub_service in site.data.[service.yaml] %}
+                        {% for sub_service in site.data.service.yaml %}
                           <p><b>{{ sub_service.title }}</b></p>
                           <p>{{ sub_service.price }}</p>
                           <p>{{ sub_service.time }}
@@ -217,5 +202,18 @@ technical excellence</p>
 <!-- End Gallery -->
 
 <!-- Start Map -->
-<div id="location" class="map" data-zoom="{{ site.map.zoom }}" data-address="{{ site.map.address }}" data-address-details="<img src='{{ site.map.address_details }}'>"></div>
+<div id="location" class="mapouter">
+  <div class="gmap_canvas">
+    <iframe
+      width="100%"
+      height="450"
+      id="gmap_canvas"
+      src="https://maps.google.com/maps?q=salon%20lavon&t=&z=13&ie=UTF8&iwloc=&output=embed"
+      frameborder="0"
+      scrolling="no"
+      marginheight="0"
+      marginwidth="0"
+    </iframe>
+  </div>
+</div>
 <!-- End Map -->
