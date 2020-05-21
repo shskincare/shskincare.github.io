@@ -1,6 +1,6 @@
 # Site settings
 title: Susan Hooper Esthetics
-description: "A responsive Jekyll theme for dental clinics."
+description: "Skincare & Waxing."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
 logo_url: img/logo.png
@@ -35,7 +35,7 @@ map:
 facebook: http://www.facebook.com/shskincare
 
 # Footer
-copyright: © 2015 Susan Hooper Esthetics - All rights reserved
+copyright: © 2020 Susan Hooper Esthetics - All rights reserved
 
 # Build settings
 markdown: kramdown
