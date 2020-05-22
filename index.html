@@ -144,7 +144,7 @@ layout: default
                       <p>{{ service.description }}</p>
                       <a href='javascript:void(0);' {{ service.tags }}>{{ service.expandible }}</a>
                       <div style="display: none">
-                        {% for sub_service in site.data.services %}
+                        {% for sub_service in site.data.waxing %}
                           <p><b>{{ sub_service.title }}</b></p>
                           <p>{{ sub_service.price }}</p>
                           <p>{{ sub_service.time }}
